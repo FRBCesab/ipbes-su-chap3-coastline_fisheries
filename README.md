@@ -9,6 +9,13 @@ the global relative abundance of fisheries by coastline.
 ![](figures/ipbes-su-chap3-coastline_fisheries.png)
 
 
+## Requierements
+
+Two spatial layers are required and must be added in the folder `data/`:
+- World maritime boundaries EEZ v11 (available [here](https://marineregions.org/downloads.php))
+- Natural Earth ocean boundaries (available [here](https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-ocean/))
+
+
 ## Usage
 
 First clone this repository, then open the R script `make.R` and run it.
