@@ -15,7 +15,10 @@
 
 # R Environment Variables ----
 .Renviron
+.Rbuildignore
 
 # User-specific files ----
 README.html
 inst/doc
+data/ne_50m_ocean/
+data/World_EEZ_v11_20191118_gpkg/

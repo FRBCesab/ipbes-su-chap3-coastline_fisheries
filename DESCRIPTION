@@ -21,5 +21,14 @@ RoxygenNote: 7.1.2
 Imports: 
     devtools,
     here,
-    readxl,
-    remotes
+    ragg,
+    remotes,
+    readr,
+    RColorBrewer,
+    rnaturalearth,
+    rnaturalearthdata,
+    rnaturalearthhires,
+    sf
+Remotes:
+    ropensci/rnaturalearthhires
+    
