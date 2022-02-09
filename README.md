@@ -9,7 +9,16 @@ the global relative abundance of fisheries by coastline.
 ![](figures/ipbes-su-chap3-coastline_fisheries.png)
 
 
-## Requierements
+## System Requirements
+
+This project handles spatial objects with the R package
+[`sf`](https://cran.r-project.org/web/packages/sf/index.html). This
+package requires some system dependencies (GDAL, PROJ and GEOS). Please
+visit [this page](https://github.com/r-spatial/sf/#installing) to
+correctly install these tools.
+
+
+## Missing data
 
 Two spatial layers are required and must be added in the folder `data/`:
 - World maritime boundaries EEZ v11 (available [here](https://marineregions.org/downloads.php))
