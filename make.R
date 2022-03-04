@@ -108,13 +108,17 @@ options(warn = 0)
 
 ## Mapping ----
 
-ragg::agg_png(filename   = here::here("figures", "ipbes-su-chap3-coastline_fisheries.png"), 
-              width      = 14.00, 
-              height     =  8.00, 
-              units      = "in", 
-              res        = 600, 
-              pointsize  = 18,
-              background = "white")
+# ragg::agg_png(filename   = here::here("figures", "ipbes-su-chap3-coastline_fisheries.png"), 
+#               width      = 14.00, 
+#               height     =  8.00, 
+#               units      = "in", 
+#               res        = 600, 
+#               pointsize  = 18,
+#               background = "white")
+
+svg(filename   = here::here("figures", "ipbes-su-chap3-coastline_fisheries.svg"), 
+    width      = 14.00, height     =  8.00, pointsize  = 18)
+
 
 par(mar = c(1, 1, 1, 1), family = "Roboto")
 
