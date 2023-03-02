@@ -1,10 +1,10 @@
-# IPBES Sustainable Use Assessment - Figure Chap3 Global Fisheries by Coastline
+## IPBES Sustainable Use of Wild Species Assessment - Chapter 3 - Data management report for the figure 3.18
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgreen.svg)](https://choosealicense.com/licenses/cc-by-4.0/)
 
-This repository contains the code to reproduce the Figure 'Global Fisheries by Coastline' of 
-the chapter 3 of the **IPBES Sustainable Use Assessment**. This figure shows the 
-the global relative abundance of fisheries by coastline.
+This repository contains the code to reproduce the Figure 3.18 of the Chapter 3 of the **IPBES Sustainable Use of Wild Species Assessment**.
+
+For more information: <https://zenodo.org/record/6513731>
 
 ![](figures/ipbes-su-chap3-coastline_fisheries.png)
 
@@ -37,5 +37,8 @@ in the folder `figures/`.
 This work is licensed under 
 [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/).
 
-Please cite this work as: [...]
+Please cite this work as:
+
+> Ray Hilborn, & Nicolas Casajus. (2022). IPBES Sustainable Use of Wild Species Assessment - Chapter 3 - Data management report for the figure 3.18. Zenodo. https://doi.org/10.5281/zenodo.6513731.
+
 
